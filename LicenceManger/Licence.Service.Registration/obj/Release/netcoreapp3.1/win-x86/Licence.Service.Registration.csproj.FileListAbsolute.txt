@@ -1,0 +1,17 @@
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\appsettings.Development.json
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\appsettings.json
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Properties\launchSettings.json
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.deps.json
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.pdb
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Licence.Service.Common.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\bin\Release\netcoreapp3.1\win-x86\Licence.Service.Common.pdb
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.csproj.CoreCompileInputs.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.AssemblyInfoInputs.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.AssemblyInfo.cs
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.RazorTargetAssemblyInfo.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.csproj.CopyComplete
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\staticwebassets\Licence.Service.Registration.StaticWebAssets.Manifest.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\staticwebassets\Licence.Service.Registration.StaticWebAssets.xml
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Registration\obj\Release\netcoreapp3.1\win-x86\Licence.Service.Registration.pdb

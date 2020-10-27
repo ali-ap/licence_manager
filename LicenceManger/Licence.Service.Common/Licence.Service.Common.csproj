@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="9.2.2" />
+    <PackageReference Include="MethodBoundaryAspect.Fody" Version="2.0.138" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Serilog.Extensions.Hosting">
+      <HintPath>C:\Users\Leo\.nuget\packages\serilog.extensions.hosting\3.0.0\lib\netstandard2.0\Serilog.Extensions.Hosting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

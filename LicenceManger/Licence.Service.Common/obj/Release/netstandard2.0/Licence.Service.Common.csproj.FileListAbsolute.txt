@@ -1,0 +1,13 @@
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\bin\Release\netstandard2.0\Licence.Service.Common.deps.json
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\bin\Release\netstandard2.0\Licence.Service.Common.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\bin\Release\netstandard2.0\Licence.Service.Common.pdb
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\bin\Release\netstandard2.0\Serilog.Extensions.Hosting.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\bin\Release\netstandard2.0\Serilog.Extensions.Hosting.xml
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.csprojAssemblyReference.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.csproj.CoreCompileInputs.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.AssemblyInfoInputs.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.AssemblyInfo.cs
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.csproj.Fody.CopyLocal.cache
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.csproj.CopyComplete
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.dll
+D:\Development\Project\Challenge\somons_voss\LicenceManger\Licence.Service.Common\obj\Release\netstandard2.0\Licence.Service.Common.pdb

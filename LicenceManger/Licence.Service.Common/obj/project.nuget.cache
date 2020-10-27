@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "ATIzhyR4z8N3JKL/1kDG7KkTwaLPyz40eCuDJYCH8ll7Wd3rnwQZ/ZvR+puJGxRnQweFis+7O/KhTpKvSK9stw==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Test\\licence_manager\\LicenceManger\\Licence.Service.Common\\Licence.Service.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\fody\\6.0.5\\fody.6.0.5.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\methodboundaryaspect.fody\\2.0.138\\methodboundaryaspect.fody.2.0.138.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\ali.alipour\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

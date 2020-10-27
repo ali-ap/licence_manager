@@ -1,0 +1,31 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1  AS base
+WORKDIR /app
+
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+WORKDIR /src
+
+COPY Licence.Service.Common/Licence.Service.Common.csproj Licence.Service.Common/
+RUN dotnet restore Licence.Service.Common/Licence.Service.Common.csproj
+
+COPY Licence.Service.SignatureGenerator/Licence.Service.SignatureGenerator.csproj Licence.Service.SignatureGenerator/
+RUN dotnet restore Licence.Service.SignatureGenerator/Licence.Service.SignatureGenerator.csproj
+
+COPY . .
+RUN dotnet build Licence.Service.SignatureGenerator/Licence.Service.SignatureGenerator.csproj -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish Licence.Service.SignatureGenerator/Licence.Service.SignatureGenerator.csproj -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+
+#RUN addgroup --system --gid 1000 customgroup \
+    #&& adduser --system --uid 1000 --ingroup customgroup --shell /bin/sh customuser
+  #
+#ENV ASPNETCORE_URLS=http://*:80
+#EXPOSE 80
+  
+# Tell docker that all future commands should run as the appuser user, must use the user number
+#USER 1000
+ENTRYPOINT ["dotnet", "Licence.Service.SignatureGenerator.dll"]

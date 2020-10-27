@@ -1,0 +1,59 @@
+version: '3'
+services:
+  Consul:
+    container_name: Consul
+    ports:
+      - "8500:8500"
+    image: consul
+  Ingress:
+    container_name: Ingress
+    build:
+      context: .
+      dockerfile: Dockerfile.Ingress
+    ports:
+      - "8083:8083"
+    image: sv:Ingress
+    environment:
+      - "CONSUL_ADDRESS=http://Consul:8500"
+      - "PORT=8083"
+    depends_on:
+      - "Consul"    
+  Registration:
+    container_name: Registration
+    build:
+      context: .
+      dockerfile: Dockerfile.Registration
+    ports:
+      - "8080:8080"
+    environment:
+      - "CONSUL_ADDRESS=http://Consul:8500"
+      - "PORT=8080"
+    image: sv:Registration
+    depends_on:
+      - "Identity"  
+  Generator:
+    container_name: Generator
+    build:
+      context: .
+      dockerfile: Dockerfile.Generator
+    ports:
+      - "8081:8081"
+    image: sv:Generator
+    environment:
+      - "CONSUL_ADDRESS=http://Consul:8500"
+      - "PORT=8081"
+    depends_on:
+      - "Identity"  
+  Identity:
+    container_name: Identity
+    build:
+      context: .
+      dockerfile: Dockerfile.Identity
+    ports:
+      - "8082:8082"
+    image: sv:Identity
+    environment:
+      - "CONSUL_ADDRESS=http://Consul:8500"
+      - "PORT=8082"
+    depends_on:
+      - "Ingress"  
